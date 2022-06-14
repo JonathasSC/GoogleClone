@@ -1,0 +1,39 @@
+.page1 {
+    border: none;
+    background: #ffff;
+    color: #2babff;
+    font-weight: bold;
+    border-bottom: solid 3px #2babff;
+}
+
+.page2 { 
+    border: none;
+    background: #ffff;
+}
+
+#logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#barra {
+    width: 550px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: solid 1px;
+    border-color: #b8b8b8;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center ;
+    width: 150;
+    height: 30;
+
+}
