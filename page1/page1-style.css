@@ -18,6 +18,7 @@
 }
 
 #barra {
+    z-index: 1;
     width: 550px;
     height: 40px;
     display: block;
@@ -29,10 +30,11 @@
 }
 
 #search_button {
+    z-index: 2;
     position: relative ;
     height: 20px;
     width: 20px;
-    right: 500px;
+    right: 540px;
 }
 
 .container-1 {
