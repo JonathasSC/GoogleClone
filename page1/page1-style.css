@@ -1,7 +1,7 @@
-.navigations-buttons {
+.navigations-buttons,.navi-link {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 8px;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-end;
@@ -14,7 +14,7 @@
 }
 
 .profile-img {
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .body{
