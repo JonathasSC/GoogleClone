@@ -1,3 +1,38 @@
+.navigations-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.navi-link:hover {
+    text-decoration: underline;
+}
+
+.profile-img {
+    border-radius: 40px;
+}
+
+.body{
+    background-color: #202124;
+    height: 100vh;
+    max-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.gb-fe{
+    width: 24px;
+}
+
+.top-buttons {
+    display: flex;
+}
+
 .page1 {
     border: none;
     background: #ffff;
