@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="page1-style.css">
 
 </head>
-<body class="body">
-    <nav class="navigations-buttons">
+<body>
+    <nav class="navigation-buttons" style="display:flex;">
 
-        <div class="navi-link" id="gmail-button">Gmail</div>
-        <div class="navi-link" id="image-button">Imagens</div>
-        <div class="navi-link" id="options-button">
-            <svg class="gb-fe" focusable="false" viewBox="0 0 24 24">
-                <path
+        <div class="navi-link">Gmail</div>
+        <div class="navi-link">Imagens</div>
+        <div class="navi-link">
+          <svg class="gb-fe"
+                style="width:24"
+                focusable="false"
+                viewBox="0 0 24 24">
+              <path
                     fill="#ffffff"
-
                     d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,
                     20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,
                     0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,
@@ -27,22 +29,19 @@
                     2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
                 </path>
             </svg>
-
+        </div>
         <div class="navi-link">
             <img class="profile-img"
             height="32px"
             width="32px"
-            src="profile-image.jpg"
-            >
-
+            src="profile-image.jpg">
         </div>
-                
-        </div>
-
     </nav>
-        <img id="logo" src="googlelogo_color_160x56dp.png" alt="googlelogo">
-        <br>
     
+    
+    <div class="logo">
+        <img id="logo" src="googlelogo_color_160x56dp.png" alt="googlelogo">
+     
         <div class="container-1">
             <div class="block"></div>
             <input id="barra" type="search" src="barradepesquisa.png" alt="barradepesquisa">
