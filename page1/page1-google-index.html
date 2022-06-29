@@ -8,16 +8,17 @@
 
 </head>
 <body>
-    <nav class="navigation-buttons" style="display:flex;">
-
+    <nav style="display:flex;
+               justify-content: flex-end;">
+        
         <div class="navi-link">Gmail</div>
         <div class="navi-link">Imagens</div>
         <div class="navi-link">
-          <svg class="gb-fe"
+            <svg class="gb-fe"
                 style="width:24"
                 focusable="false"
                 viewBox="0 0 24 24">
-              <path
+                <path
                     fill="#ffffff"
                     d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,
                     20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,
@@ -30,11 +31,9 @@
                 </path>
             </svg>
         </div>
-        <div class="navi-link">
-            <img class="profile-img"
-            height="32px"
-            width="32px"
-            src="profile-image.jpg">
+        <div>
+            <img class="navi-image" id="profile-image"
+                src="profile-image.jpg" >
         </div>
     </nav>
     
@@ -44,9 +43,10 @@
      
         <div class="container-1">
             <div class="block"></div>
-            <input id="barra" type="search" src="barradepesquisa.png" alt="barradepesquisa">
+            <input id="barra" type="search"
+            src="barradepesquisa.png"
+            alt="barradepesquisa">
         </div>
-
 
 </body>
 </html>
