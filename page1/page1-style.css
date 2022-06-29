@@ -6,17 +6,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.navigation-buttons {
-  display: flex
-}
-
-.navi-link{
+nav div {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 10px;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -24,12 +19,14 @@ body {
     text-decoration: underline;
 }
 
-.profile-img {
-    border-radius: 30px;
+.navi-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
 }
-.profile-img:hover {
+
+.navi-image:hover {
     background-color: #515151;
-    cursor: pointer;
 }
 
 .gb-fe {
@@ -37,9 +34,10 @@ body {
     height: 24px;
 }
 
-.gb-fe:hover {
-  background-color: #515151;
-  cursor: pointer;
+.gb-fe:hover,.navi-image:hover{
+    background-color: #515151;
+    border-radius: 50%;
+    
 }
 
 #logo{
